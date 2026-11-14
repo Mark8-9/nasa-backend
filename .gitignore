@@ -1,0 +1,21 @@
+# تجاهل مكتبات Node.js لأن حجمها كبير ويتم تحميلها تلقائياً على السيرفر بـ npm install
+node_modules/
+
+# تجاهل ملفات البيئة السرية (مفاتيح الـ API وروابط قاعدة البيانات)
+.env
+.env.local
+.env.development
+.env.production
+
+# تجاهل ملفات اللوج والأخطاء المؤقتة
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# تجاهل ملفات النظام والمحرر المؤقتة
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
