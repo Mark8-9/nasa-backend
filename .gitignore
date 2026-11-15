@@ -19,3 +19,15 @@ logs/
 Thumbs.db
 .vscode/
 .idea/
+
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.env
+frontend/.env
+mobile/.gradle/
+mobile/build/
+mobile/app/build/
+mobile/.idea/
+mobile/local.properties

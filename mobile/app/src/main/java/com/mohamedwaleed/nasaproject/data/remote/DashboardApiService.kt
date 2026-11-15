@@ -1,0 +1,12 @@
+package com.mohamedwaleed.nasaproject.data.remote
+
+import retrofit2.Response
+import retrofit2.http.Body
+import retrofit2.http.POST
+
+interface DashboardApiService {
+    @POST("api/astronauts/measurements")
+    suspend fun uploadMeasurement(
+        @Body request: MeasurementSyncRequest
+    ): Response<Unit>
+}
